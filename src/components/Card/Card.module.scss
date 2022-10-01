@@ -1,0 +1,28 @@
+.container {
+    background-color: palevioletred;
+    padding: 35px;
+    margin-bottom: 32px;
+    border-radius: 30px;
+    width: 300px;
+    height: 400px;
+
+    .containerTitle {
+      margin-bottom: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      .title {
+        font-size: 18px;
+        font-weight: bold;
+        color: whitesmoke;
+        margin: 0;
+      }
+    }
+    .description {
+      font-size: 18px;
+      font-weight: bold;
+      color: whitesmoke;
+      margin: 0;
+    }
+  }
